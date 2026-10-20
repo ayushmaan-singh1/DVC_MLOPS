@@ -9,13 +9,21 @@ data = {'Name': ['Alice', 'Bob', 'Charlie'],
 
 df = pd.DataFrame(data)
 
-# # Adding new row to df for V2
+ #Adding new row to df for V2
 new_row_loc = {'Name': 'GF1', 'Age': 20, 'City': 'City1'}
 df.loc[len(df.index)] = new_row_loc
 
-# # Adding new row to df for V3
-new_row_loc2 = {'Name': 'GF2', 'Age': 30, 'City': 'City2'}
-df.loc[len(df.index)] = new_row_loc2
+# # # Adding new row to df for V3
+# new_row_loc2 = {'Name': 'GF2', 'Age': 30, 'City': 'City2'}
+# df.loc[len(df.index)] = new_row_loc2
+
+ #Adding new row to df for V4
+# new_row_loc3 = {'Name': 'GF3', 'Age': 18, 'City': 'City3'}
+# df.loc[len(df.index)] = new_row_loc3
+
+# # # Adding new row to df for V5
+# new_row_loc4 = {'Name': 'GF4', 'Age': 22, 'City': 'City4'}
+# df.loc[len(df.index)] = new_row_loc4
 
 # Ensure the "data" directory exists at the root level
 data_dir = 'data'
